@@ -225,7 +225,7 @@ object PlayerPreferencesScreen : Screen {
             summary = { Text(stringResource(R.string.pref_player_controls_show_chapters_summary)) },
           )
           FooterPreference(
-            {Text(stringResource(R.string.pref_player_controls_chapter_indicator_gestures))}
+            { Text(stringResource(R.string.pref_player_controls_chapter_indicator_gestures)) },
           )
 
           PreferenceCategory(
